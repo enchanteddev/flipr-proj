@@ -7,7 +7,7 @@
     let page = 'index';
     let signedin = false;
     let username = '';
-    const base_url = 'http://127.0.0.1:5000';
+    const base_url = 'https://stockr.onrender.com/';
     const signin = (usrname, pwd) => {
       signedin = true;
       username = usrname;
